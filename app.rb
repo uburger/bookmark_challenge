@@ -6,5 +6,9 @@ class Bookmark_page < Sinatra::Base
     "test"
   end
 
+  get '/bookmarks' do
+    "bookmark 1"
+  end
+
   run if app_file == $0
 end
