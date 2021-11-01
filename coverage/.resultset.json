@@ -1,16 +1,22 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/michaelsteinacher/Projects/bookmarker-challenge/app.rb": {
+      "/Users/uburger/Makers/Bookmark_challenge/bookmarker-challenge/app.rb": {
         "lines": [
           1,
-          null,
           1,
           null,
           1,
+          null,
+          1,
           1,
           null,
           null,
+          1,
+          0,
+          null,
+          null,
+          1,
           1,
           1,
           null,
@@ -19,7 +25,22 @@
           null
         ]
       },
-      "/Users/michaelsteinacher/Projects/bookmarker-challenge/spec/features/test_spec.rb": {
+      "/Users/uburger/Makers/Bookmark_challenge/bookmarker-challenge/lib/bookmark.rb": {
+        "lines": [
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/uburger/Makers/Bookmark_challenge/bookmarker-challenge/spec/features/test_spec.rb": {
         "lines": [
           1,
           null,
@@ -31,7 +52,7 @@
           null
         ]
       },
-      "/Users/michaelsteinacher/Projects/bookmarker-challenge/spec/features/view_bookmarks_spec.rb": {
+      "/Users/uburger/Makers/Bookmark_challenge/bookmarker-challenge/spec/features/view_bookmarks_spec.rb": {
         "lines": [
           1,
           null,
@@ -44,6 +65,6 @@
         ]
       }
     },
-    "timestamp": 1635782788
+    "timestamp": 1635784625
   }
 }
