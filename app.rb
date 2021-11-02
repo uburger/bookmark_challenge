@@ -1,14 +1,13 @@
 require 'sinatra/base'
 require './lib/bookmark'
 
-class Bookmark_page < Sinatra::Base
-
+class BookmarkPage < Sinatra::Base
   get '/test' do
-    "test"
+    'test'
   end
 
-  get '/' do 
-  redirect '/bookmarks'
+  get '/' do
+    redirect '/bookmarks'
   end
 
   get '/bookmarks' do
