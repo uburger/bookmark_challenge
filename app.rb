@@ -16,6 +16,12 @@ class BookmarkPage < Sinatra::Base
     erb :bookmarks
   end
 
+  post '/bookmarks' do
+    Bookmark.new.create(url: params[:url])
+    
+    redirect '/bookmarks'
+  end 
+
   get '/add_bookmark' do
     erb :add_bookmark
   end

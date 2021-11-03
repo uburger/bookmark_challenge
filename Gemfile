@@ -8,7 +8,6 @@ ruby '3.0.2'
 
 # gem "rails"
 
-
 gem 'capybara'
 gem 'rubocop', '1.2'
 gem 'simplecov'
