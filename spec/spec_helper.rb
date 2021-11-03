@@ -1,6 +1,9 @@
 require 'capybara/rspec'
 require 'simplecov'
 require 'simplecov-console'
+require 'sinatra/base'
+
+require_relative './setup_test_database'
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([SimpleCov::Formatter::Console])
 SimpleCov.start
@@ -9,7 +12,11 @@ SimpleCov.start
 
 ENV['RACK_ENV'] = 'test'
 
-
+RSpec.configure do |config|
+  config.before(:each) do
+    'setup_test_database'
+  end
+end
 
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
 Capybara.app = BookmarkPage
