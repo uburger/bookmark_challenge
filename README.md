@@ -2,7 +2,7 @@ As a user I want to
 Show a list of bookmarks
 I want to see a list of bookmarks
 
-As a user I want to
+As a user
 By pressing the add to bookmarks button
 I want to add new bookmarks
 

@@ -16,5 +16,9 @@ class BookmarkPage < Sinatra::Base
     erb :bookmarks
   end
 
+  get '/add_bookmark' do
+    erb :add_bookmark
+  end
+
   run if app_file == $0
 end
